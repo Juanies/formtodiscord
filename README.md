@@ -28,6 +28,3 @@ Una vez que el servidor esté en funcionamiento, puedes enviar mensajes a Discor
 
 Las contribuciones son bienvenidas. Si encuentras algún problema o tienes alguna sugerencia de mejora, no dudes en abrir un "Issue" o enviar un "Pull Request".
 
-## Licencia
-
-Este proyecto está bajo la [Licencia MIT](https://opensource.org/licenses/MIT).
