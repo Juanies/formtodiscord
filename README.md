@@ -16,9 +16,7 @@ Este es un servidor Node.js que procesa solicitudes de un formulario web y enví
 
 ### Ejecución
 
-Para iniciar el servidor, ejecuta el siguiente comando:
-
-npm start
+Para iniciar el servidor, ejecuta el siguiente comando: `npm start`
 
 El servidor comenzará a escuchar en el puerto especificado en la variable de entorno `PORT` o en el puerto 3000 de forma predeterminada.
 
