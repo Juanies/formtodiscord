@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send Message to Discord</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form onsubmit="sendMessage(); return false;">
+        <div>
+            <label for="token">WebHook Token:</label>
+            <input type="text" id="token" name="token" required>
+
+        </div>
+
+        <div>
+            <label for="name">Nombre Completo:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+            <label for="mail">Correo Electrónico:</label>
+            <input type="email" id="mail" name="mail" required>
+        </div>
+        <div>
+            <label for="service">Tipo de Servicio:</label>
+            <select id="service" name="service" required>
+                <option value="">Seleccione un servicio</option>
+                <option value="Página Web">Página Web</option>
+                <option value="Aplicación de Escritorio">Aplicación de Escritorio</option>
+                <option value="Bot de Discord">Bot de Discord</option>
+            </select>
+        </div>
+
+       <div>
+        <label for="message">Descripción Breve del Proyecto:</label>
+        <textarea id="message" name="message" required></textarea>
+       </div>
+
+        <input class="sub" type="submit" value="Enviar Solicitud">
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
